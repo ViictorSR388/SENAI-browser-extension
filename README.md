@@ -18,25 +18,9 @@ Passo 5 - Depois coloque uma descrição = "description":"Minha primeira extens�
 
 Passo 6 - Defina a versão = "version": "0.1",
 
-Passo 7 - Importe o script, que no caso é o outro arquivo que criaremos a seguir =
-
-"content_scripts": [
-        {
-
-            "matches":[
-                "<all_urls>"
-            ],
-            "js":[
-
-                "content.js"
-            ]
-
-        }
-
-    ]
+Passo 7 - Importe o script, que no caso é o outro arquivo que criaremos a seguir = ![image](https://user-images.githubusercontent.com/71882342/116598132-dc871f80-a8fc-11eb-88fc-7ac74f619390.png)
 
 Passo 8 - No final, o arquivo manifest vai ficar assim = ![image](https://user-images.githubusercontent.com/71882342/116598006-b3ff2580-a8fc-11eb-913a-b9833ac0df60.png)
-
 
 Passo 9 - Agora crie o arquivo .js chamado "content.js"
 
