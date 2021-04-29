@@ -35,29 +35,8 @@ Passo 7 - Importe o script, que no caso é o outro arquivo que criaremos a segui
 
     ]
 
-Passo 8 - No final, o arquivo manifest vai ficar assim =
+Passo 8 - No final, o arquivo manifest vai ficar assim = ![image](https://user-images.githubusercontent.com/71882342/116598006-b3ff2580-a8fc-11eb-913a-b9833ac0df60.png)
 
-{
-    "manifest_version": 2,
-    "name": "Hello World Extension",
-    "description":"Minha primeira extensão para chrome",
-    "version": "0.1",
-    "content_scripts":[
-        {
-
-            "matches":[
-                "<all_urls>"
-            ],
-            "js":[
-
-                "content.js"
-            ]
-
-        }
-
-    ]
-
-}
 
 Passo 9 - Agora crie o arquivo .js chamado "content.js"
 
