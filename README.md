@@ -19,7 +19,8 @@ Passo 5 - Depois coloque uma descrição = "description":"Minha primeira extens�
 Passo 6 - Defina a versão = "version": "0.1",
 
 Passo 7 - Importe o script, que no caso é o outro arquivo que criaremos a seguir =
-"content_scripts":[
+
+"content_scripts": [
         {
 
             "matches":[
@@ -34,7 +35,8 @@ Passo 7 - Importe o script, que no caso é o outro arquivo que criaremos a segui
 
     ]
 
-Passo 8 - No final, o arquivo manifest vai ficar assim = 
+Passo 8 - No final, o arquivo manifest vai ficar assim =
+
 {
     "manifest_version": 2,
     "name": "Hello World Extension",
