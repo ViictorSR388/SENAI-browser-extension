@@ -2,6 +2,8 @@
 
 ## Grupo 1 - Antonio, Athilas, Caliu, Erica, Haile, Roy, Victor
 
+## Tutorial feito baseado no video: https://www.youtube.com/watch?v=SnsdWsDhBfo
+
 ## Neste txt você aprenderá a como fazer uma extensão para seu browser com apenas um arquivo json e um outro js (javascript). Esta extensão, quando ativada, deixará o background de algumas páginas com uma cor diferente.
 
 ## Sem enrolação, vamos começar:
@@ -28,3 +30,5 @@ Passo 10 - Em seguida, coloque o código que será responsável por alterar a im
 document.body.style.backgroundColor = "#000";
 
 #000 se trata da cor, que neste caso é preto. Para colocar outras cores você insere o valor dela, ou, escreva ela entre as aspas, exemplo: "red".
+
+## Tutorial feito baseado no video: https://www.youtube.com/watch?v=SnsdWsDhBfo
